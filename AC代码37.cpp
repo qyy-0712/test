@@ -11,6 +11,7 @@
  */
 class Solution {
 public:
+    int
     int getheight(TreeNode* cur){
         if(cur==nullptr)return 0;
         int lefttree=getheight(cur->left);
@@ -24,4 +25,5 @@ public:
         if(getheight(root)==-1)return false;
         else return true;
     }
+
 };
