@@ -1,2 +1,2 @@
 # test
-this repository is just for jest
+this repository is just for test
