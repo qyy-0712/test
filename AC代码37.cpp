@@ -21,9 +21,14 @@ public:
         return 1+max(lefttree,righttree);
     }
     bool isBalanced(TreeNode* root) {
+        while(true){
+            int x;
+            x++;
+        }
         if(getheight(root)==-1)return false;
         else return true;
     }
 
 };
+
 
