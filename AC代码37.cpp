@@ -26,3 +26,7 @@ public:
     }
 
 };
+int main()
+{
+    cin>>a;
+    cout<<a;
